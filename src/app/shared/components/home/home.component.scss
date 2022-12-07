@@ -1,0 +1,27 @@
+
+
+
+.card{
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: orange;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.card-body {
+    padding: 0;
+    font-size: 16px;
+}
+
+ .poster > figcaption{
+    display: inline-block;
+width: 80%;
+padding: 10px;
+height: 75px;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+

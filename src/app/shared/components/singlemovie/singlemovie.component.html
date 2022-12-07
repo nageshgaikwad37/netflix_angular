@@ -1,0 +1,26 @@
+<div class="posts">
+<img [src]="imgpath + movieDetails.backdrop_path" class="bgimg" alt="">
+
+    <div class="card">
+        <div class="row">
+            <div class="col-sm-5 ">
+                <img [src]="imgpath + movieDetails.poster_path" class="img-fluid cimg" alt="">
+            </div>
+            <div class="col-sm-7 mt-4">
+               <h3 class="titl">
+                <strong>Title: {{movieDetails.original_title}}</strong>
+               </h3>
+               <p class="over">
+                {{movieDetails.overview}}
+               </p>
+               <p class="rat">
+                 <strong>
+                    Ratings : {{movieDetails.vote_average}}
+                 </strong>
+               <button class="btn btn-outline-warning ml-5" (click)="gotohome()">Go To Home</button>
+
+               </p>
+            </div>
+        </div>
+    </div>
+</div>

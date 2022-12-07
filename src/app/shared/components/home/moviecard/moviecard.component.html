@@ -1,0 +1,23 @@
+<div class="galar">
+  <div class="card" [routerLink]="['/movie', movie.id]">
+    <div class="card-body">
+      <figure class="poster">
+        <img [src]="IMG_PATH + movie.poster_path" alt="" />
+        <figcaption>
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="mtitle">
+                {{ movie.original_title}}
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mrating">
+                rating : <span [ngStyle]="{'color' : movie.vote_average >= 7 ? 'green' :'orange', 'font-weight': 'bold '}">{{movie.vote_average}}</span>
+              </p>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+</div>
+</div>
