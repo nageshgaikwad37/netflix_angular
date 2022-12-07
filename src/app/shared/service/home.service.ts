@@ -265,6 +265,22 @@ result:Iresult[]=
     },
     {
         "adult": false,
+        "backdrop_path": "/3r3tZgKTw1554hcFoUfydLHE38w.jpg",
+        "genre_ids": [27,9648],
+        "id": 338947,
+        "original_language": "en",
+        "original_title": "Hellraiser",
+        "overview": "A young woman struggling with addiction comes into possession of an ancient puzzle box, unaware that its purpose is to summon the Cenobites, a group of sadistic supernatural beings from another dimension.",
+        "popularity": 983.967,
+        "poster_path": "/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
+        "release_date": "2022-09-28",
+        "title": "Hellraiser",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 330
+    },
+    {
+        "adult": false,
         "backdrop_path": "/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
         "genre_ids": [
             35,
